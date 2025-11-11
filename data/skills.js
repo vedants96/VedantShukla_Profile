@@ -1,25 +1,23 @@
 export const skills = [
   {
-    title: 'Generative AI & LLMs',
+    title: 'Machine Learning',
     description:
-      'Designing retrieval-augmented systems and adapting foundation models with efficient fine-tuning techniques.',
-    items: ['LangChain', 'RAG', 'LoRA / QLoRA', 'Mistral AI', 'Azure OpenAI'],
+      'Designing and deploying models that move from experimentation to production with measurable ROI.',
+    items: ['Scikit-learn', 'TensorFlow', 'XGBoost', 'MLOps', 'Feature Engineering'],
   },
   {
-    title: 'Machine Learning & Analytics',
-    description:
-      'Delivering predictive models and experiments that power forecasting, segmentation, and decision intelligence.',
-    items: ['Python', 'Scikit-learn', 'XGBoost', 'Time Series Forecasting', 'Customer Segmentation'],
+    title: 'Analytics & BI',
+    description: 'Telling stories with data through dashboards, experimentation, and stakeholder-friendly insights.',
+    items: ['Python', 'SQL', 'dbt', 'Tableau', 'A/B Testing'],
   },
   {
-    title: 'Data Engineering & Ops',
-    description: 'Operationalising pipelines and services that keep ML workflows observable, resilient, and scalable.',
-    items: ['PySpark', 'Azure', 'MLflow', 'Airflow', 'ML Deployment'],
+    title: 'Data Engineering',
+    description: 'Building scalable data pipelines and services that keep analytics humming at scale.',
+    items: ['Airflow', 'Kafka', 'Spark', 'AWS', 'GCP'],
   },
   {
-    title: 'Visualisation & Communication',
-    description:
-      'Enabling stakeholders with clear narratives, dashboards, and documentation that accelerate adoption.',
-    items: ['Power BI', 'Plotly', 'Streamlit', 'PowerPoint', 'Technical Writing'],
+    title: 'Product & Collaboration',
+    description: 'Partnering with design, product, and engineering to build delightful, data-powered experiences.',
+    items: ['Roadmapping', 'Stakeholder Alignment', 'Agile Delivery', 'Mentorship', 'Technical Writing'],
   },
 ];

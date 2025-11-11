@@ -1,30 +1,41 @@
 export const projects = [
   {
-    title: 'Clinical Knowledge RAG Assistant',
+    title: 'Customer Churn Early Warning',
     description:
-      'End-to-end clinical QA copilot combining Azure OpenAI, LangChain, and Ollama to cut research time by 38% for medical teams.',
-    tags: ['RAG', 'LangChain', 'Azure OpenAI', 'Ollama'],
-    links: {},
+      'Predictive service that surfaces at-risk accounts with explainable insights. Reduced churn by 15% for enterprise SaaS clients.',
+    tags: ['Python', 'XGBoost', 'FastAPI', 'AWS Sagemaker'],
+    links: {
+      demo: 'https://example.com/churn-demo',
+      source: 'https://github.com/vedantshukla/churn-warning',
+    },
   },
   {
-    title: 'Efficient Clinical QA LLM',
+    title: 'Demand Forecasting Platform',
     description:
-      'Fine-tuned base LLMs with QLoRA and staged distillation to deliver 40% faster inference and 55% lower GPU memory while matching accuracy.',
-    tags: ['QLoRA', 'Model Distillation', 'PyTorch', 'Azure ML'],
-    links: {},
+      'Unified forecasting pipeline combining AutoML, feature store, and CI/CD. Enabled weekly planning for 600+ retail stores.',
+    tags: ['Time Series', 'Airflow', 'dbt', 'Docker'],
+    links: {
+      demo: 'https://example.com/forecasting',
+      source: 'https://github.com/vedantshukla/forecast-platform',
+    },
   },
   {
-    title: 'Enterprise Sales Forecasting Pipelines',
+    title: 'Healthcare NLP Insights',
     description:
-      'Azure-native ML workflow powering FnB sales planning with automated retraining, REST APIs, and Power BI visibility for leadership.',
-    tags: ['Azure', 'Airflow', 'MLflow', 'Power BI'],
-    links: {},
+      'Deployed transformer-based NLP system that analyzes patient feedback for actionable improvements.',
+    tags: ['NLP', 'Transformers', 'Streamlit', 'GCP'],
+    links: {
+      demo: 'https://example.com/nlp-insights',
+      source: 'https://github.com/vedantshukla/healthcare-nlp',
+    },
   },
   {
-    title: 'LLM Agent for Text Environments',
+    title: 'Analytics Design System',
     description:
-      'Research thesis implementing a GPT-2 reinforcement learning agent that outperformed baselines on complex text-based decision tasks.',
-    tags: ['Reinforcement Learning', 'GPT-2', 'NLP', 'Python'],
-    links: {},
+      'Component library and documentation site enabling consistent, high-quality dashboards across teams.',
+    tags: ['Design Systems', 'React', 'Storybook', 'Figma'],
+    links: {
+      source: 'https://github.com/vedantshukla/analytics-design-system',
+    },
   },
 ];
