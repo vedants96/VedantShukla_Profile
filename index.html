@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vedant Shukla • Data Scientist Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Vedant Shukla, an AI and data science professional specializing in generative AI, machine learning, and full-stack analytics delivery."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script type="module" src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#hero">Skip to content</a>
+    <header class="site-header" id="top">
+      <div class="container">
+        <div class="header-content">
+          <a class="brand" href="#hero" aria-label="Vedant Shukla home">
+            <span class="brand__initials" aria-hidden="true">VS</span>
+            <span class="brand__text">Vedant Shukla</span>
+          </a>
+          <nav class="site-nav" aria-label="Primary">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+              <span class="nav-toggle__bar"></span>
+              <span class="nav-toggle__bar"></span>
+              <span class="nav-toggle__bar"></span>
+              <span class="sr-only">Menu</span>
+            </button>
+            <ul class="nav-list" id="nav-list" data-open="false">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <span class="theme-toggle__icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Hello, I'm</p>
+            <h1 class="hero__title">Vedant Shukla</h1>
+            <p class="hero__subtitle">AI &amp; Data Science Professional</p>
+            <p class="hero__description">
+              Galway-based practitioner translating generative AI, ML, and analytics research into
+              production-ready products for healthcare and retail teams.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#projects">View Projects</a>
+              <a class="button button--ghost" href="assets/Vedant_Shukla_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+            </div>
+          </div>
+          <aside class="hero__highlights" aria-label="Key highlights">
+            <ul>
+              <li>
+                <span class="highlight__metric">RAG &amp; LLM</span>
+                <span class="highlight__label">production deployments</span>
+              </li>
+              <li>
+                <span class="highlight__metric">40% faster</span>
+                <span class="highlight__label">clinical inference delivery</span>
+              </li>
+              <li>
+                <span class="highlight__metric">STAMP 1G</span>
+                <span class="highlight__label">work authorization in Ireland</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container section__grid">
+          <div>
+            <p class="section__eyebrow">About</p>
+            <h2 class="section__title">Bridging applied research and enterprise AI adoption.</h2>
+          </div>
+          <div class="section__content">
+            <p>
+              I'm an AI and data science professional with experience spanning generative AI,
+              machine learning, and full-stack data product development. I thrive on transforming
+              emerging research into solutions that create measurable impact for stakeholders.
+            </p>
+            <p>
+              My toolkit covers Python, PySpark, SQL, Azure, MLflow, and LangChain, enabling me to
+              design experiments, build resilient pipelines, and operationalise insights for cross-
+              functional teams.
+            </p>
+            <p>
+              Beyond delivery, I enjoy collaborating with product and business partners, mentoring
+              peers, and documenting learnings so teams can scale with confidence.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="skills">
+        <div class="container">
+          <p class="section__eyebrow">Skills</p>
+          <h2 class="section__title">A balanced blend of analytical and engineering strengths.</h2>
+          <div class="skills-grid" id="skills-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <p class="section__eyebrow">Experience</p>
+          <h2 class="section__title">Driving measurable outcomes with cross-functional teams.</h2>
+          <div class="timeline" id="experience-timeline" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="projects">
+        <div class="container">
+          <p class="section__eyebrow">Projects</p>
+          <h2 class="section__title">Selected work showcasing problem solving and delivery.</h2>
+          <div class="projects-grid" id="projects-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <div class="container section__grid">
+          <div>
+            <p class="section__eyebrow">Resume</p>
+            <h2 class="section__title">Download the full story.</h2>
+          </div>
+          <div class="section__content">
+            <p>
+              Get a detailed overview of my professional journey, responsibilities, and achievements
+              across projects and teams. The PDF includes condensed case studies, certifications, and
+              selected publications.
+            </p>
+            <a class="button button--primary" href="assets/Vedant_Shukla_Resume.pdf" target="_blank" rel="noopener"
+              >Download Resume</a
+            >
+            <p class="section__note">
+              Tip: update <code>assets/Vedant_Shukla_Resume.pdf</code> with your latest resume before
+              publishing.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--contact" id="contact">
+        <div class="container section__grid">
+          <div>
+            <p class="section__eyebrow">Contact</p>
+            <h2 class="section__title">Let's build responsible, data-driven products.</h2>
+          </div>
+          <div class="section__content">
+            <p>
+              I'm open to freelance, contract, and full-time opportunities focused on applied AI,
+              analytics, or data product engineering. Feel free to connect through the channels below.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:shukla.vedant1996@gmail.com">shukla.vedant1996@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+353899785766">+353 899 785 766</a>
+              </li>
+              <li>
+                <span class="contact-label">LinkedIn</span>
+                <a
+                  href="https://www.linkedin.com/in/vedant-shukla-8a7710171/"
+                  target="_blank"
+                  rel="noopener"
+                  >linkedin.com/in/vedant-shukla-8a7710171</a
+                >
+              </li>
+              <li>
+                <span class="contact-label">Location</span>
+                <span>Galway, Ireland · H91 C8CR</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="footer-year"></span> Vedant Shukla. Built with curiosity and care.</p>
+      </div>
+    </footer>
+  </body>
+</html>
