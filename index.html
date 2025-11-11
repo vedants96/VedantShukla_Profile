@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vedant Shukla • Data Scientist Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Vedant Shukla, a data scientist specializing in machine learning, analytics, and end-to-end product development."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script type="module" src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#hero">Skip to content</a>
+    <header class="site-header" id="top">
+      <div class="container">
+        <div class="header-content">
+          <a class="brand" href="#hero" aria-label="Vedant Shukla home">
+            <span class="brand__initials" aria-hidden="true">VS</span>
+            <span class="brand__text">Vedant Shukla</span>
+          </a>
+          <nav class="site-nav" aria-label="Primary">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+              <span class="nav-toggle__bar"></span>
+              <span class="nav-toggle__bar"></span>
+              <span class="nav-toggle__bar"></span>
+              <span class="sr-only">Menu</span>
+            </button>
+            <ul class="nav-list" id="nav-list" data-open="false">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <span class="theme-toggle__icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Hello, I'm</p>
+            <h1 class="hero__title">Vedant Shukla</h1>
+            <p class="hero__subtitle">Data Scientist • Machine Learning Engineer • Storyteller with Data</p>
+            <p class="hero__description">
+              I design, build, and ship data products that empower decision-makers. From exploratory
+              analysis to production-grade ML systems, I translate business problems into measurable
+              outcomes.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#projects">View Projects</a>
+              <a class="button button--ghost" href="assets/Vedant_Shukla_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+            </div>
+          </div>
+          <aside class="hero__highlights" aria-label="Key highlights">
+            <ul>
+              <li>
+                <span class="highlight__metric">5+ years</span>
+                <span class="highlight__label">in analytics & ML</span>
+              </li>
+              <li>
+                <span class="highlight__metric">10+ projects</span>
+                <span class="highlight__label">delivered end-to-end</span>
+              </li>
+              <li>
+                <span class="highlight__metric">AWS & GCP</span>
+                <span class="highlight__label">cloud certified</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container section__grid">
+          <div>
+            <p class="section__eyebrow">About</p>
+            <h2 class="section__title">Transforming raw data into strategic insights.</h2>
+          </div>
+          <div class="section__content">
+            <p>
+              I'm a data scientist with a passion for storytelling through data. I thrive at the
+              intersection of machine learning, analytics, and product strategy, driving impact with
+              thoughtful experimentation and production-ready solutions.
+            </p>
+            <p>
+              My toolkit spans Python, SQL, and cloud-native pipelines. I partner with product,
+              engineering, and business stakeholders to deliver tangible results—from dashboards that
+              inform executive decisions to models that automate workflows.
+            </p>
+            <p>
+              Outside of work, I mentor aspiring data professionals and share learnings through
+              workshops and writing.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="skills">
+        <div class="container">
+          <p class="section__eyebrow">Skills</p>
+          <h2 class="section__title">A balanced blend of analytical and engineering strengths.</h2>
+          <div class="skills-grid" id="skills-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <p class="section__eyebrow">Experience</p>
+          <h2 class="section__title">Driving measurable outcomes with cross-functional teams.</h2>
+          <div class="timeline" id="experience-timeline" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="projects">
+        <div class="container">
+          <p class="section__eyebrow">Projects</p>
+          <h2 class="section__title">Selected work showcasing problem solving and delivery.</h2>
+          <div class="projects-grid" id="projects-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <div class="container section__grid">
+          <div>
+            <p class="section__eyebrow">Resume</p>
+            <h2 class="section__title">Download the full story.</h2>
+          </div>
+          <div class="section__content">
+            <p>
+              Get a detailed overview of my professional journey, responsibilities, and achievements
+              across projects and teams. The PDF includes condensed case studies, certifications, and
+              selected publications.
+            </p>
+            <a class="button button--primary" href="assets/Vedant_Shukla_Resume.pdf" target="_blank" rel="noopener"
+              >Download Resume</a
+            >
+            <p class="section__note">
+              Tip: update <code>assets/Vedant_Shukla_Resume.pdf</code> with your latest resume before
+              publishing.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--contact" id="contact">
+        <div class="container section__grid">
+          <div>
+            <p class="section__eyebrow">Contact</p>
+            <h2 class="section__title">Let's build something data-driven.</h2>
+          </div>
+          <div class="section__content">
+            <p>
+              I'm always open to discussing new opportunities, collaborations, or mentoring. Reach out
+              via email or connect on your platform of choice.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:hello@vedantshukla.dev">hello@vedantshukla.dev</a>
+              </li>
+              <li>
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/vedantshukla" target="_blank" rel="noopener"
+                  >linkedin.com/in/vedantshukla</a
+                >
+              </li>
+              <li>
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/vedantshukla" target="_blank" rel="noopener"
+                  >github.com/vedantshukla</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="footer-year"></span> Vedant Shukla. Built with curiosity and care.</p>
+      </div>
+    </footer>
+  </body>
+</html>
